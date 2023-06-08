@@ -1,0 +1,37 @@
+Selection: 
+	1 : Retrieve all Contestants belonging to a Country -- select contestant [COUNTRY_NAME]
+	2 : Retrieve all coaches from a country -- select coach [COUNTRY_NAME]
+
+Projection
+	3 : List all players with a gold medal -- project gold
+	4 : List all matches played between more than 2 countries -- project match
+
+Aggregate  -- aggregate [country_medals, maxmedals, player_medals, num_match, avg_continent]
+	5 : List the number of medals won by a country
+	6 : List the country with the maximum number of medals
+	7 : List the medals won by a player
+	8 : List the numbers of matches played in a sport
+	9 : Average number of medals won by countries in a continent
+
+Search
+	10 : List all players whose name starts with a particular letter -- search player [str]
+	11 : List all matches whose duration was more than 2 hours -- search duration2
+
+Analysis -- analysis ['rankings', 'sponsor', 'correlation', 'diversity', 'continent', 'maxincountry']
+	12 : We can generate the ranking of the countries based on the number of medals won
+	13 : We can analyse how much investment from a sponsor lead to how many medals from the sponsored
+	14 : We can also see the correlation of investment of a country and the number of medals won
+	15 : We can see the amount of participation from different sexes from different countries
+	16 : We can relate countries within the same continent based on number of medals won
+	17 : We can derive which athlete won the maximum number of medals from a country
+
+Modification
+	18 : Insert data about Coaches
+	19 : Insert data about Contestant
+	20 : Insert data about Venue
+	21 : Delete Overseer from database
+	22 : Delete Player from database
+	23 : Delete Contestant from database
+	24 : Update Overseer for a Match
+	25 : Update Medal won by a Player
+	26 : Update Venue for a Match
